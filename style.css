@@ -1,0 +1,156 @@
+*
+body{
+    background-image:linear-gradient(to right,#F8F8F8 , #C0C0C0);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Trirong", serif;
+}
+#container{
+width:100%;
+height:100%;
+}
+.rentagle{
+    background-image:linear-gradient(to left,#0B0C10 , #1F2833);
+    height:90px;
+    padding:5px;
+
+}
+
+
+.nav {
+
+    right:0;
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  #a1{
+    margin-top:30px;
+    text-align: center;
+
+  }
+  #a1:hover{
+    background-color: #f1f1f1;
+    color:black;
+    border-left:8px solid;
+    border-color:#00b386;
+    
+  }
+  .nav > a {
+    text-decoration: none;
+margin-top:120px;
+    font-size: 32px;
+    color: #C0C0C0;
+    display: block;
+    transition: 0.3s;
+  }
+  
+#navlogo{
+    position: absolute;
+    top:20px;
+    left:130px;
+    width:80px;
+    border-radius:20px 5px;
+}
+  
+ .closebtn {
+
+    text-decoration: none;
+    position: absolute;
+    top: 85px;
+    float:left;
+    left:0;
+    font-size: 4px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .nav {padding-top: 15px;}
+    .nav a {font-size: 18px;}
+  }
+.logoname{
+    margin-top:-15px;
+    color:white;
+    float:left;
+    font-size:60px;
+    width:350px;
+    margin-left:200px;
+}
+#logo{
+    height:10px;
+    width:10px;
+    margin-left:40px;
+   
+}
+#logo2{
+    border-radius:25px 10px;
+    height:90px;
+    width:90px;
+}
+#rentagle2{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image:linear-gradient(to left,#0B0C10 , #1F2833);
+    height:100px;
+}
+#time{
+    float:right;
+    color:white;
+    font-size:50px;
+    margin-right: 100px;
+}
+#inav{
+    float:right;
+    color:#f1f1f1;
+margin-right: 50px; 
+    margin-top:25px; 
+ 
+} 
+.squares{ 
+    width:100%; 
+    align-items: center;
+}
+.square2{
+    color:white;
+    width:48%;
+    height:700px;
+    border-radius:10px;
+    border:3px solid;
+    border-color:#454545;
+    float:left;
+    margin-left:52%;
+    background-image:linear-gradient(to left,#1F2833,#003326);
+    
+  
+}
+.square1{
+    color:white;
+    width:50%;
+    height:700px;
+    border-radius:10px;
+    border:3px solid;
+    border-color:#454545;
+    margin:10px;
+    
+}
+.square1:hover {
+    cursor:pointer;
+    border-color:#00b359;
+
+}
+.square2:hover{
+    cursor:pointer;
+    border-color:#00b359;
+}
+#copyright{
+    font-size:20px;
+}
