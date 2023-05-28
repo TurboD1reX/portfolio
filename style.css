@@ -1,0 +1,152 @@
+*
+body{
+    background-image:linear-gradient(to right,#F8F8F8 , #C0C0C0);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Trirong", serif;
+}
+.rentagle{ 
+    background-image:linear-gradient(to left,#0B0C10 , #1F2833);
+    height:90px;
+    padding:5px;
+}
+#rentagle2{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image:linear-gradient(to left,#0B0C10 , #1F2833);
+    height:100px;
+    color:white;
+}
+.nav {
+    right:0;
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .nav > #a1 {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    text-align: center;
+    cursor:pointer;
+    font-weight:900;
+    text-decoration: none;
+    font-size: 40px;
+    color: #C0C0C0;
+    transition: 0.3s;
+  }  .nav > #a1:hover{
+    background-color: #f0f0f0;
+    color:black;
+    border-left:8px solid;
+    border-color:#00b386;
+  }
+ .closebtn {
+    text-decoration: none;
+    position: absolute;
+    top:4%;
+    float:left;
+    left:0;
+    font-size: 32px;
+    margin-left: 50px;
+    color:#C0C0C0;
+  }
+#navlogo{
+cursor:pointer;
+    margin-left:100px;
+    position: absolute;
+    margin-top:20px;
+    left:130px;
+    width:80px;
+    border-radius:20px 5px;
+}
+  
+#logoname{
+    cursor:pointer;
+    float:left;
+    text-shadow: 2px 2px 4px;
+    color:white;
+    font-size:60px;
+    width:350px;
+    margin-left:50px;
+    margin-top:-5px;
+}
+#logo2{
+cursor:pointer;
+    float:left;
+    margin-left:50px;
+    border-radius:25px 10px;
+    height:90px;
+    width:90px;
+}
+
+#time{
+    margin-top:-14px;
+    float:right;
+    color:white;
+    font-size:50px;
+    margin-right: 100px;
+}
+#data{
+    color:white;
+    font-size: 30px;
+    margin-top:40px;
+    position:absolute;
+    margin-left:1655px;
+}
+#inav{
+    float:right;
+    color:#f1f1f1;
+    margin-right: 50px; 
+    margin-top:25px; 
+    font-size:35px;
+    cursor:pointer;
+} 
+.squares{ 
+    width:100%; 
+}
+
+#copyright{
+    color:silver;
+    font-size:20px;
+    float:right;
+    margin-right:20px;
+    margin-top:10px;
+}
+#authorial{
+    margin-left:200px;
+    font-size:24px;
+}
+#welcome{
+   margin-left:20%;
+   margin-top:200px; 
+}
+#citat{
+    margin-top:290px;
+    text-align:center;
+}
+#Mauthorial{
+text-decoration: none;
+color:white;
+}
+#content{
+    font-size:larger;
+    margin-left:200px;
+}
+#codingimg{
+    width:380px; 
+    height:380px;
+    border-radius: 50% 25%;
+    margin-top:-22rem;
+    float:right;
+    margin-right:80px;
+    z-index:3;
+}
